@@ -5,7 +5,7 @@ import { findDOMNode } from 'react-dom';
 import BaseModal from 'react-overlays/lib/Modal';
 import isOverflowing from 'react-overlays/lib/utils/isOverflowing';
 
-import Fade from './Fade';
+// import Fade from './Fade';
 import Body   from './Body';
 import Header from './Header';
 import Title from './Title';
@@ -154,9 +154,9 @@ class Modal extends React.Component {
 
     let prefix = modalPrefix || Modal.getDefaultPrefix();
 
-    if (transition === true)
-      transition = Fade;
-
+    // if (transition === true)
+    //   transition = Fade;
+    transition = false;
     let modal = (
       <div
         {...elementProps}
