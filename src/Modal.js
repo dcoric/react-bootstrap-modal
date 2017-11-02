@@ -204,8 +204,6 @@ class Modal extends React.Component {
         backdropClassName={prefix + '-backdrop'}
         containerClassName={prefix + '-open'}
         transition={transition}
-        dialogTransitionTimeout={Modal.TRANSITION_DURATION}
-        backdropTransitionTimeout={Modal.BACKDROP_TRANSITION_DURATION}
       >
         {modal}
       </BaseModal>
