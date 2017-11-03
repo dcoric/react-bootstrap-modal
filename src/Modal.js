@@ -156,7 +156,7 @@ class Modal extends React.Component {
 
     // if (transition === true)
     //   transition = Fade;
-    transition = false;
+    // transition = false;
     let modal = (
       <div
         {...elementProps}
